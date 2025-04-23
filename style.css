@@ -1,0 +1,66 @@
+/* === General Window === */
+window {
+    background-color: #1a1b26; /* Dark background */
+    color: #c0caf5;            /* Soft white text */
+    font-family: "Fira Code", "Monospace";
+    font-size: 14px;
+}
+
+/* === Entry (Command input box) === */
+entry {
+    background-color: #292e42;
+    color: #9ece6a;
+    border: 2px solid #7aa2f7;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 4px;
+    transition: 0.3s ease;
+}
+
+entry:focus {
+    border-color: #bb9af7;
+    box-shadow: 0 0 5px #7dcfff;
+}
+
+/* === Button === */
+button {
+    background-image: none;
+    background-color: #7aa2f7;
+    color: #1a1b26;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: bold;
+    border: none;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #bb9af7;
+}
+
+/* === TextView (Output area) === */
+textview {
+    background-color: #1e202e;
+    color: #a9b1d6;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #3b4261;
+}
+
+/* === Label (Help commands) === */
+label {
+    color: #c0caf5;
+    font-weight: 600;
+    padding: 10px;
+    background-color: transparent;
+}
+
+/* === Scrollbars === */
+scrollbar, scrollbar slider {
+    background-color: #3b4261;
+    border-radius: 5px;
+}
+
+scrollbar slider:hover {
+    background-color: #7dcfff;
+}
